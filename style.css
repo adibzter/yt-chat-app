@@ -1,0 +1,80 @@
+body {
+	background-color: whitesmoke;
+  margin: auto 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#div-title {
+	text-align: center;
+	border-bottom: dashed 1px black;
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.div-my-chat {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	height: 100px;
+}
+
+.div-chat {
+	background-color: white;
+	font-size: larger;
+	margin: 10px;
+	padding: 5px;
+	width: 50%;
+	max-width: 60%;
+	height: 80%;
+	border: solid 1px black;
+	border-radius: 8px;
+}
+
+.name {
+	font-weight: bold;
+	color: turquoise;
+}
+
+.message {
+	color: black;
+}
+
+.time {
+	color: silver;
+	text-align: end;
+}
+
+#div-chat-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  border-top: dashed 1px black;
+  width: 100%;
+  height: 120px;
+}
+
+#input-chat {
+  width: 400px;
+  height: 60px;
+  font-size: large;
+  border: solid 1px black;
+  border-radius: 5px;
+  outline: none;
+}
+
+#button-submit {
+  background-color: turquoise;
+	font-size: larger;
+  width: 100px;
+  height: 60px;
+  border: dashed 1px black;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+#button-submit:hover {
+  background-color: white;
+  cursor: pointer;
+}

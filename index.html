@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Chat App</title>
+</head>
+
+<body>
+	<div id="div-title">
+		<span>Chat App</span>
+	</div>
+
+	<div id="div-all-chat">
+		<div class="div-my-chat">
+			<div class="div-chat">
+				<div class="name">My name</div>
+				<div class="message">hello</div>
+				<div class="time">11:28 PM</div>
+			</div>
+		</div>
+
+		<div class="div-other-chat">
+			<div class="div-chat">
+				<div class="name">Other name</div>
+				<div class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, nam! Neque similique
+					tempore ipsam natus, veritatis earum ullam dolore ducimus porro id itaque molestias minima dolorum cum qui!
+					Error, dolorum.</div>
+				<div class="time">11:28 PM</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="div-chat-input">
+		<input type="text" id="input-chat" placeholder="Type message here">
+		<button id="button-submit" onclick="addMessage()">Submit</button>
+	</div>
+
+	<script src="index.js"></script>
+</body>
+
+</html>
